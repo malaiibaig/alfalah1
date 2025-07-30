@@ -1,5 +1,17 @@
+// * npx shadcn@latest init 
+// * npm i vite-plugin-svgr
+
 import { createFileRoute } from '@tanstack/react-router'
-import logo from '../logo.svg'
+import Header from '../components/home/header'
+// import TrustpilotReviews from '../components/home/trustpilotReviews'
+// import Stats from '@/components/home/stats'
+// import Properties from '@/components/home/properties'
+// import Communities from '@/components/home/communities'
+// import Agents from '@/components/home/agents'
+// import Chart from '@/components/home/chart'
+// import Articles from '@/components/home/articles'
+// import Faqs from '@/components/home/faqs'
+// import { constants } from '@/lib/constants'
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -7,33 +19,15 @@ export const Route = createFileRoute('/')({
 
 function App() {
   return (
-    <div className="text-center">
-      <header className="min-h-screen flex flex-col items-center justify-center bg-[#282c34] text-white text-[calc(10px+2vmin)]">
-        <img
-          src={logo}
-          className="h-[40vmin] pointer-events-none animate-[spin_20s_linear_infinite]"
-          alt="logo"
-        />
-        <p>
-          Edit <code>src/routes/index.tsx</code> and save to reload.
-        </p>
-        <a
-          className="text-[#61dafb] hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="text-[#61dafb] hover:underline"
-          href="https://tanstack.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn TanStack
-        </a>
-      </header>
+    <div className="w-full">
+      <Header />
+      {/* <Stats />
+      <Properties title={constants.properties.title} />
+      <Communities />
+      <Agents />
+      <Chart />
+      <Articles />
+      <Faqs /> */}
     </div>
   )
 }
