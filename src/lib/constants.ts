@@ -81,15 +81,11 @@ export const constants = {
     button: 'More Info',
   },
   agents: {
-    title1: 'Top <span style="font-weight: bold;">Agents</span>',
-    description1:
-      'Find trusted agents awarded for their excellent performance.',
-    button: 'Find My Agent',
+    title1: '24/7 Customer Care',
+    button: '+92-(42)-111-234-222',
     title2:
-      'Get an instant property <span style="font-weight: bold;">valuation</span>',
-    description2:
-      'Planning to sell your property? Start with a precise, independent valuation and receive a detailed market report today.',
-    button2: 'Get Started',
+      'Call Us for Any Questions',
+    button2: '+92-(42)-111-234-222',
   },
   chart: {
     title:

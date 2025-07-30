@@ -65,7 +65,7 @@ code {
   --popover-foreground: oklch(0.145 0 0);
   --primary: #ED2E22;
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: #2d3559;
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
@@ -151,4 +151,43 @@ code {
   isolation: isolate;
   -webkit-backdrop-filter: blur(3px);
   -webkit-filter: url("#glass-distortion");
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.animate-scroll-down {
+  animation: scroll-down 10s linear infinite;
+}
+
+.animate-scroll-up {
+  animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-horizontal {
+  animation: scroll-horizontal 16s linear infinite;
 }
