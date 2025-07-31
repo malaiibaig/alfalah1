@@ -1,7 +1,7 @@
 export const constants = {
   navbar: {
     phone: '+92 9876543210',
-    button: 'Place Your Property',
+    button: 'Get a Quote',
     contact: 'Contact',
     careers: 'Careers',
   },
