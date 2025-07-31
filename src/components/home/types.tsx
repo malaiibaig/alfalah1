@@ -3,7 +3,7 @@ import insurance1 from '@/assets/images/insurance.jpg'
 
 export default function Types() {
     return (
-        <div className="w-full py-16 bg-bg-solitude">
+        <div className="w-full pb-16 bg-bg-solitude">
             <div className="container mx-auto">
                 <div className="w-full h-[66rem] lg:h-[52rem] mt-0.5 relative">
                     <img

@@ -31,7 +31,7 @@ const buy = [
 
 export default function Services() {
     return (
-        <div className="w-full lg:py-16 bg-bg-solitude">
+        <div className="w-full lg:pt-16 bg-bg-solitude">
             <div className="container mx-auto">
                 <h1 className="text-2xl lg:text-5xl text-center font-bold" dangerouslySetInnerHTML={{ __html: constants.services.heading }} />
                 <div className="flex flex-col lg:flex-row mt-10 justify-center">

@@ -95,16 +95,16 @@ export const constants = {
   },
   chart: {
     title:
-      'DLD daily <span style="font-weight: bold;">transactions</span> for sale, rent & gift',
-    filter1: 'Sale',
-    filter2: 'Mortage',
-    filter3: 'Gift',
-    range: 'Transactions from',
-    totalTransactions: 'Total Transactions',
-    totalWorth: 'Total Worth',
-    units: 'Units',
-    buildings: 'Buildings',
-    lands: 'Lands',
+      'Year Wise Financial Highlights',
+    filter1: 'Yearly',
+    filter2: 'Half Year',
+    cards:[
+        { label: 'Premium Written', value: 2082005 },
+        { label: 'Underwriting Results', value: 100692 },
+        { label: 'Profit Before Tax', value: 176895 },
+        { label: 'Earning Per Share', value: 2.46 },
+        { label: 'Shareholder Equity', value: 1054417 },
+    ],
   },
   articles: {
     title: 'Our News & <span style="font-weight: bold;">Articles</span>',
