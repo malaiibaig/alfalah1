@@ -67,7 +67,7 @@ code {
   --primary-foreground: oklch(0.985 0 0);
   --secondary: #2d3559;
   --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
+  --muted: #e4e4e4;
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);

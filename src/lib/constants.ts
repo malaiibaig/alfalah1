@@ -87,6 +87,12 @@ export const constants = {
       'Call Us for Any Questions',
     button2: '+92-(42)-111-234-222',
   },
+  types: {
+    title: 'What we Offer',
+    types: [{ name: 'Motor Insurance', id: 1 }, { name: 'Protection Plans', id: 2 }, { name: 'Health Insurance', id: 3 }, { name: 'Travel Insurance', id: 4 },
+      { name: 'Property Insurance', id: 5 }, { name: 'Marine Cargo Insurance', id: 6 }, { name: 'Enery Insurance', id: 7 }, { name: 'Engineering Insurance', id: 8 }
+    ],
+  },
   chart: {
     title:
       'DLD daily <span style="font-weight: bold;">transactions</span> for sale, rent & gift',

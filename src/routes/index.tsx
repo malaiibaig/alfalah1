@@ -5,10 +5,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import Header from '@/components/home/header'
 import TrustpilotReviews from '@/components/home/trustpilotReviews'
-// import Stats from '@/components/home/stats'
-// import Properties from '@/components/home/properties'
 import Services from '@/components/home/services'
 import Agents from '@/components/home/agents'
+import Types from '@/components/home/types'
 // import Chart from '@/components/home/chart'
 // import Articles from '@/components/home/articles'
 // import Faqs from '@/components/home/faqs'
@@ -25,8 +24,9 @@ function App() {
       <TrustpilotReviews />
       {/* <Properties title={constants.properties.title} /> */}
       <Services />
+      <Types />
       <Agents />
-      {/* <Chart /> */}
+
       {/* <Articles /> */}
       {/* <Faqs />  */}
     </div>
