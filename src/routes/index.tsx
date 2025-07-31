@@ -9,9 +9,9 @@ import Services from '@/components/home/services'
 import Agents from '@/components/home/agents'
 import Types from '@/components/home/types'
 import Chart from '@/components/home/chart'
-// import Articles from '@/components/home/articles'
-// import Faqs from '@/components/home/faqs'
-// import { constants } from '@/lib/constants'
+import Testimonials from '@/components/common/testimonial'
+import About from '@/components/home/about'
+
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -22,14 +22,12 @@ function App() {
     <div className="w-full">
       <Header />
       <TrustpilotReviews />
-      {/* <Properties title={constants.properties.title} /> */}
       <Services />
       <Types />
       <Chart />
       <Agents />
-
-      {/* <Articles /> */}
-      {/* <Faqs />  */}
+      <Testimonials />
+      <About />
     </div>
   )
 }
