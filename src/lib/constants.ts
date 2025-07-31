@@ -1,6 +1,6 @@
 export const constants = {
   navbar: {
-    phone: '+91 9876543210',
+    phone: '+92 9876543210',
     button: 'Place Your Property',
     contact: 'Contact',
     careers: 'Careers',
@@ -9,50 +9,40 @@ export const constants = {
     quickLinks: {
       title: 'QUICK LINKS',
       links: [
-        { text: 'Buy', href: '/buy' },
-        { text: 'Rent', href: '/rent' },
-        { text: 'Commercial', href: '/commercial' },
-        { text: 'Developers', href: '/developers' },
-        { text: 'New Projects', href: '/new-projects' },
-        { text: 'Areas', href: '/areas' },
+        { text: 'The Company', href: '/the-company' },
+        { text: 'Vision & Mission', href: '/vision-mission' },
+        { text: 'Company Profile', href: '/company-profile' },
+        { text: 'Rating', href: '/rating' },
+        { text: 'Sitemap', href: '/sitemap' },
+        { text: 'Whistle Blowing Policy', href: '/whistle-blowing' },
+        { text: 'Downloads', href: '/downloads' },
       ],
     },
     services: {
-      title: 'SERVICES',
+      title: 'OUR SERVICES',
       links: [
-        { text: 'About Us', href: '/about' },
-        { text: 'Our Team', href: '/team' },
-        { text: 'Careers', href: '/careers' },
-        { text: 'News & Blogs', href: '/news' },
-        { text: 'Contact', href: '/contact' },
+        { text: 'Motor Insurance', href: '/services/motor-insurance' },
+        { text: 'Property Insurance', href: '/services/property-insurance' },
+        { text: 'Health Insurance', href: '/services/health-insurance' },
+        { text: 'Marine Insurance', href: '/services/marine-insurance' },
       ],
     },
-    popularAreas: {
-      title: 'POPULAR AREAS',
+    support: {
+      title: 'SUPPORT',
       links: [
-        { text: 'All areas in Dubai', href: '/areas/dubai' },
-        { text: 'All areas in Abu Dhabi', href: '/areas/abu-dhabi' },
-        { text: 'All areas in Sharjah', href: '/areas/sharjah' },
-        { text: 'All areas in Ras Al Khaimah', href: '/areas/ras-al-khaimah' },
+        { text: 'Complaint', href: '/complaint' },
+        { text: 'FAQs', href: '/faqs' },
+        { text: 'Contact Us', href: '/contact' },
       ],
     },
-    popularProjects: {
-      title: 'POPULAR PROJECTS IN DUBAI',
-      links: [
-        { text: 'Apartments', href: '/projects/apartments' },
-        { text: 'Penthouses', href: '/projects/penthouses' },
-        { text: 'Townhouses', href: '/projects/townhouses' },
-        { text: 'Villas', href: '/projects/villas' },
-        { text: 'Offices', href: '/projects/offices' },
-        { text: 'Hotels', href: '/projects/hotels' },
-        {
-          text: 'Residential Lands for Sale',
-          href: '/projects/residential-lands',
-        },
-        { text: 'Projects in Dubai', href: '/projects/dubai' },
-      ],
+    contact: {
+      title: 'CONTACT US',
+      call: '+92 42 111-234-222',
+      email: 'info@alfalahinsurance.com',
+      location: '5-Saint Mary Park, Gulberg-III, Lahore',
+      lastUpdated: 'Last Updated: 24 Jul, 2025',
     },
-    copyright: '© Luxe Balsam Properties · All rights reserved',
+    copyright: '© Bank Al Falah · All rights reserved',
     legal: {
       terms: 'Terms & Conditions',
       privacy: 'Privacy Policy',
@@ -90,7 +80,7 @@ export const constants = {
   types: {
     title: 'What we Offer',
     types: [{ name: 'Motor Insurance', id: 1 }, { name: 'Protection Plans', id: 2 }, { name: 'Health Insurance', id: 3 }, { name: 'Travel Insurance', id: 4 },
-      { name: 'Property Insurance', id: 5 }, { name: 'Marine Cargo Insurance', id: 6 }, { name: 'Enery Insurance', id: 7 }, { name: 'Engineering Insurance', id: 8 }
+    { name: 'Property Insurance', id: 5 }, { name: 'Marine Cargo Insurance', id: 6 }, { name: 'Enery Insurance', id: 7 }, { name: 'Engineering Insurance', id: 8 }
     ],
   },
   chart: {
@@ -98,12 +88,12 @@ export const constants = {
       'Year Wise Financial Highlights',
     filter1: 'Yearly',
     filter2: 'Half Year',
-    cards:[
-        { label: 'Premium Written', value: 2082005 },
-        { label: 'Underwriting Results', value: 100692 },
-        { label: 'Profit Before Tax', value: 176895 },
-        { label: 'Earning Per Share', value: 2.46 },
-        { label: 'Shareholder Equity', value: 1054417 },
+    cards: [
+      { label: 'Premium Written', value: 2082005 },
+      { label: 'Underwriting Results', value: 100692 },
+      { label: 'Profit Before Tax', value: 176895 },
+      { label: 'Earning Per Share', value: 2.46 },
+      { label: 'Shareholder Equity', value: 1054417 },
     ],
   },
   newsletter: {
@@ -114,17 +104,17 @@ export const constants = {
   },
   testimonials: {
     title: 'Our Success Stories',
-    heading:'We are the Leading Digital Insurer in Pakistan',
-    description:"A business strategy is the means by which it sets out to achieve its desired ends. You have ideas, goals, and dreams.",
+    heading: 'We are the Leading Digital Insurer in Pakistan',
+    description: "A business strategy is the means by which it sets out to achieve its desired ends. You have ideas, goals, and dreams.",
     button: "Know more"
-},
-about:{
-  title:"Why we are Different",
-  claim: "EClaims",
-  claimDescription: "For MILVIK Cliams Only",
-  report: "Report A Claim",
-  reportDescription: "Report Claim Online",
-  panel: "Panel Hospitals",
-  panelDescription: "Locate nearest panel Hospital",
-}
+  },
+  about: {
+    title: "Why we are Different",
+    claim: "EClaims",
+    claimDescription: "For MILVIK Cliams Only",
+    report: "Report A Claim",
+    reportDescription: "Report Claim Online",
+    panel: "Panel Hospitals",
+    panelDescription: "Locate nearest panel Hospital",
+  }
 }

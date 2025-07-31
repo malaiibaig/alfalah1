@@ -21,33 +21,21 @@ import Language from '@/assets/svg/language.svg?react'
 
 const links = [
   {
-    name: 'Buy',
-    href: '/buy',
+    name: 'Our Services',
+    href: '/services',
     highlight: true,
   },
   {
-    name: 'Rent',
-    href: '/rent',
+    name: 'Financials',
+    href: '/financials',
   },
   {
-    name: 'Commercial',
-    href: '/commercial',
+    name: 'Media Room',
+    href: '/media-room',
   },
   {
-    name: 'Developers',
-    href: '/developers',
-  },
-  {
-    name: 'New Projects',
-    href: '/new-projects',
-  },
-  {
-    name: 'Areas',
-    href: '/areas',
-  },
-  {
-    name: 'Our Team',
-    href: '/ourteam',
+    name: 'Branch Locator',
+    href: '/branch-locator',
   },
   {
     name: 'About Us',

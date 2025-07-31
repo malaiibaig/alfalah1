@@ -31,7 +31,7 @@ export default function Footer() {
                     </div>
 
                     {/* Quick Links */}
-                    <div className="col-span-1">
+                    <div className="col-span-1 col-start-3">
                         <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.quickLinks.title}</h3>
                         <ul className="space-y-2">
                             {footer.quickLinks.links.map((link, index) => (
@@ -58,11 +58,10 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Popular Areas */}
                     <div className="col-span-1">
-                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.popularAreas.title}</h3>
+                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.support.title}</h3>
                         <ul className="space-y-2">
-                            {footer.popularAreas.links.map((link, index) => (
+                            {footer.support.links.map((link, index) => (
                                 <li key={index}>
                                     <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
                                         {link.text}
@@ -72,19 +71,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Popular Projects */}
-                    <div className="col-span-1">
-                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.popularProjects.title}</h3>
-                        <ul className="space-y-2">
-                            {footer.popularProjects.links.map((link, index) => (
-                                <li key={index}>
-                                    <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
-                                        {link.text}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
                 </div>
             </div>
             {/* Bottom Section */}
