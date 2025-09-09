@@ -2,7 +2,6 @@ import { MdArrowOutward } from 'react-icons/md'
 import { Button } from '@/components/ui/button'
 import { constants } from '@/lib/constants'
 import agent1 from '@/assets/images/agent1.png'
-import agent2 from '@/assets/images/agent2.png'
 
 
 const agentImages = [

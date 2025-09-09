@@ -4,7 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 import svgr from 'vite-plugin-svgr'
 
 import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
-import { resolve } from 'node:path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,13 +13,12 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
   ],
-  test: {
-    globals: true,
-    environment: 'jsdom',
-  },
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
+      '@': '/src',
     },
+  },
+  build: {
+    chunkSizeWarningLimit: 1500,
   },
 })

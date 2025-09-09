@@ -88,6 +88,7 @@ export const constants = {
       'Year Wise Financial Highlights',
     filter1: 'Yearly',
     filter2: 'Half Year',
+    range: 'Range:',
     cards: [
       { label: 'Premium Written', value: 2082005 },
       { label: 'Underwriting Results', value: 100692 },
