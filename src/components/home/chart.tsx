@@ -20,7 +20,7 @@ export default function Chart() {
 
   // State for animation control
   const [inView, setInView] = useState(false)
-  const [currentStats, setCurrentStats] = useState( constants.chart.cards.map(() => 0))
+  const [currentStats, setCurrentStats] = useState(constants.chart.cards.map(() => 0))
   const [chartData, setChartData] = useState<Array<Array<number | null>>>([
     Array(14).fill(null),
     Array(14).fill(null),
@@ -71,7 +71,7 @@ export default function Chart() {
       const elapsed = Date.now() - startTime
       const progress = Math.min(elapsed / duration, 1)
 
-      const newStats =  constants.chart.cards.map((stat) => {
+      const newStats = constants.chart.cards.map((stat) => {
         return Math.floor(progress * stat.value)
       })
 
@@ -284,7 +284,7 @@ export default function Chart() {
               </div>
             </div>
             <div className="flex flex-wrap lg:flex-nowrap gap-4 mt-6">
-              { constants.chart.cards.map((stat, index) => (
+              {constants.chart.cards.map((stat, index) => (
                 <div
                   key={index}
                   className="w-[46%] lg:w-[20%] rounded-md bg-[#E9EBED] flex flex-col justify-between items-center p-4"
