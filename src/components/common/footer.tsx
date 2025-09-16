@@ -7,7 +7,24 @@ import InstagramIcon from "@/assets/svg/instagram.svg?react";
 import LinkedInIcon from "@/assets/svg/linkedin.svg?react";
 import YouTubeIcon from "@/assets/svg/youtube.svg?react";
 
-const icons = [<FacebookIcon /> , <TwitterIcon />, <InstagramIcon />, <LinkedInIcon />, <YouTubeIcon />]
+const icons = [<FacebookIcon />, <TwitterIcon />, <InstagramIcon />, <LinkedInIcon />, <YouTubeIcon />]
+
+const Links = ({ title, links }: { title: string, links: { text: string, href: string }[] }) => {
+    return (
+        <div>
+            <h3 className="text-gray-900 text-md font-semibold mb-4">{title}</h3>
+            <ul className="space-y-2">
+                {links.map((link, index) => (
+                    <li key={index}>
+                        <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
+                            {link.text}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    )
+}
 
 export default function Footer() {
     const { footer } = constants;
@@ -32,43 +49,16 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div className="col-span-1 col-start-3">
-                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.quickLinks.title}</h3>
-                        <ul className="space-y-2">
-                            {footer.quickLinks.links.map((link, index) => (
-                                <li key={index}>
-                                    <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
-                                        {link.text}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                        <Links title={footer.quickLinks.title} links={footer.quickLinks.links} />
                     </div>
 
                     {/* Services */}
                     <div className="col-span-1">
-                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.services.title}</h3>
-                        <ul className="space-y-2">
-                            {footer.services.links.map((link, index) => (
-                                <li key={index}>
-                                    <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
-                                        {link.text}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                        <Links title={footer.services.title} links={footer.services.links} />
                     </div>
 
                     <div className="col-span-1">
-                        <h3 className="text-gray-900 text-md font-semibold mb-4">{footer.support.title}</h3>
-                        <ul className="space-y-2">
-                            {footer.support.links.map((link, index) => (
-                                <li key={index}>
-                                    <Link to={link.href} className="text-gray-600 text-sm hover:text-gray-900">
-                                        {link.text}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                        <Links title={footer.support.title} links={footer.support.links} />
                     </div>
 
                 </div>

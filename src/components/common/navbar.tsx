@@ -1,6 +1,3 @@
-// * npx shadcn@latest add dropdown-menu
-// * npx shadcn@latest add button
-
 import {useState } from 'react'
 import { Link, useRouter } from '@tanstack/react-router'
 import logo from '@/assets/images/logo.png'
