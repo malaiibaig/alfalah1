@@ -1,7 +1,3 @@
-// * npx shadcn@latest init 
-// * npm i vite-plugin-svgr
-// * npm install react-icons --save
-
 import { createFileRoute } from '@tanstack/react-router'
 import Header from '@/components/home/header'
 import TrustpilotReviews from '@/components/home/trustpilotReviews'
